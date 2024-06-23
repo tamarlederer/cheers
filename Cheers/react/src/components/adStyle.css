@@ -1,0 +1,50 @@
+header {
+    height: 15vh;
+    width: 100%;
+    background: lightgray;
+    margin-bottom: 50px;
+}
+
+.product-info {
+    font-style: oblique;
+    display: flex;
+    width: 95%;
+}
+
+.item-info-parent {
+    order: 2;
+    width: 50%;
+    margin-left: 15%;
+}
+
+
+.main-info h4{
+    
+    font-size: 21px;
+    margin-bottom: 0;
+    font-weight: 400
+}
+
+.main-info p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+#price {
+    color: rgb(168, 14, 14);
+    font-size: 21px;
+}
+
+
+.description ul {
+    padding-left: 17px;
+    font-size: 15px;
+    line-height: 1.3rem;
+}
+.gallery-container{
+    margin-left: 5%;
+    width: 40%;
+  }
+
+

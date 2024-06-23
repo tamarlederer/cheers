@@ -1,0 +1,305 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+/* .mySlides {
+  display: none;
+} */
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+/* .addImg{
+border-radius: 1px solid;
+border-color: black;
+border-radius: '4px';
+margin: '4px';
+padding: '4px';
+} */
+
+.Footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 32px;
+  text-decoration: none;
+}
+
+.Footer-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  font-size: 16px;
+}
+
+
+/* ------------------------- */
+.tryy {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.searchForm {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 32px;
+  text-decoration: none;
+}
+
+.txt {
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 900%;
+  line-height: 1;
+  animation: slideInFromRight 1s ease-out;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.txt:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+.input-upload-img {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.button-container {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 27px;
+  width: 70px;
+}
+
+.button-container:hover {
+  background-color: #f0f0f0;
+  /* Change the background color on hover if needed */
+}
+
+.about-page {
+  margin: 0;
+  padding-top: 90px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.form2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 70%;
+}
+
+.txt{
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 900%;
+  line-height: 1;
+  animation: slideInFromRight 1s ease-out;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .txt:hover {
+    transform: translateY(-10px);
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  .container{
+    display: flex;
+    /* align-items: start;
+    margin-left: 40%;
+    padding-top: 10px; */
+    width: 95%;
+    margin: 0 auto
+
+  }
+.gallery-container{
+  margin-left: 5%;
+  width: 55%;
+  
+}
+.text-container{
+  /* font-size: 16px;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 5%;
+  margin: auto; */
+
+  order: 2;
+  width: 50%;
+}
+.main-info p {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.main-info h4{
+  font-size: 21px;
+  margin-bottom: 0;
+  font-weight: 400
+}
+
+  /* //-----styleCard */
+  /* .card{
+    text-align: start;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 1px 0 rgb(10 16 34 / 20%);
+  
+    font-family: "Raleway", sans-serif;
+  
+    border: 0.25px solid #fff;
+  } */
+
+  
